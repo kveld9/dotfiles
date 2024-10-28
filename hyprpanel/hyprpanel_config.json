@@ -1,6 +1,6 @@
 {
   "bar.customModules.updates.pollingInterval": 1440000,
-  "wallpaper.image": "/ruta/al/wallpaper",
+  "wallpaper.image": "/home/kveld/Downloads/wallhaven-zyj8gw_1920x1080.png",
   "theme.matugen": true,
   "theme.matugen_settings.scheme_type": "fruit-salad",
   "bar.layouts": {
@@ -51,5 +51,5 @@
   "menus.dashboard.stats.enabled": false,
   "menus.dashboard.directories.enabled": false,
   "theme.bar.dropdownGap": "2.9em",
-  "theme.bar.margin_bottom": "-0.2em"
+  "theme.bar.margin_bottom": "0.0em"
 }
