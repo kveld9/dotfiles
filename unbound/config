@@ -1,0 +1,71 @@
+server:
+    # Network Interface and Ports
+    interface: 127.0.0.1
+    port: 5335
+    do-ip4: yes
+    do-udp: yes
+    do-tcp: yes
+    do-ip6: no
+    prefer-ip6: no
+    
+    # General Settings
+    root-hints: "/var/lib/unbound/root.hints"
+    harden-glue: yes
+    harden-dnssec-stripped: yes
+    aggresive-nsec: yes
+    use-caps-for-id: yes
+    harden-algo-downgrade: yes
+    harden-short-bufsize: yes
+    val-clean-additional: yes
+    hide-identity: yes
+    hide-version: yes
+    hide-trustanchor: yes
+    identity: "Server"
+    edns-buffer-size: 1232
+    rrset-roundrobin: yes
+    minimal-responses: yes
+    cache-min-ttl: 300
+    cache-max-ttl: 86400
+    serve-expired: yes
+    serve-expired-client-timeout: 60
+    do-daemonize: no
+    neg-cache-size: 16m
+    qname-minimisation: yes
+    prefetch: yes
+    prefetch-key: yes
+    num-threads: 2
+    msg-cache-size: 50m
+    rrset-cache-size: 100m
+    so-reuseport: yes
+    so-rcvbuf: 4m
+    so-sndbuf: 4m
+    unwanted-reply-threshold: 100000
+    deny-any: yes
+    
+    # Private Address Spaces
+    private-address: 192.168.0.0/16
+    private-address: 169.254.0.0/16
+    private-address: 172.16.0.0/12
+    private-address: 10.0.0.0/8
+    private-address: fd00::/8
+    private-address: fe80::/10
+    
+    # Logging Settings
+    verbosity: 0
+    log-queries: no
+    log-replies: no
+    log-servfail: no
+    log-local-actions: no
+    logfile: /dev/null
+    
+    # TLS Settings
+    tls-cert-bundle: "/etc/ssl/certs/ca-certificates.crt"
+    tls-win-cert: no
+    tls-use-sni: yes
+
+# Forwarding Zones
+forward-zone:
+    name: "."
+    forward-tls-upstream: yes
+    forward-addr: 9.9.9.9@853
+    forward-addr: 149.112.112.112@853
