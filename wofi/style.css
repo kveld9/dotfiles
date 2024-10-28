@@ -1,5 +1,5 @@
 * {
-    border-radius: 15px;  /* Aumentado significativamente */
+    border-radius: 15px;
     border: none;
 }
 
@@ -9,19 +9,19 @@ window {
     background-color: rgba(26, 27, 38, 0.85);
     color: #E5E9F0;
     border-bottom: 2px solid #87CEEB;
-    border-radius: 20px;  /* Más redondeado para la ventana principal */
+    border-radius: 20px;
 }
 
 #entry {
     padding: 0.3em;
-    border-radius: 12px;  /* Redondeado para cada entrada */
-    margin: 2px 5px;  /* Añadido margen para mejor separación */
+    border-radius: 12px;
+    margin: 2px 5px;
 }
 
 #entry:selected {
     background-color: #87CEEB;
     background: linear-gradient(90deg, rgba(135, 206, 235, 0.8), rgba(122, 162, 247, 0.8));
-    border-radius: 12px;  /* Asegurando que la selección también sea redondeada */
+    border-radius: 12px;
 }
 
 #text:selected {
@@ -31,14 +31,14 @@ window {
 #input {
     background-color: rgba(26, 27, 38, 0.7);
     color: #E5E9F0;
-    padding: 0.4em;  /* Ligeramente más padding */
-    border-radius: 15px;  /* Input más redondeado */
-    margin: 5px;  /* Margen para separar del borde */
+    padding: 0.4em;
+    border-radius: 15px;
+    margin: 5px;
     border-bottom: 2px solid #87CEEB;
 }
 
 image {
     margin-left: 0.5em;
     margin-right: 0.5em;
-    border-radius: 10px;  /* Redondeado para las imágenes */
+    border-radius: 10px;
 }
