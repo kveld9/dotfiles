@@ -1,1 +1,4 @@
-
+install zram --> sudo xbps-install zramen
+make service --> sudo ln -s /etc/sv/zramen /var/service
+edit config --> sudo nano /etc/sv/zramen/conf 
+paste ---> export ZRAM_COMP_ALGORITHM='lz4'
