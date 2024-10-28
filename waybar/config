@@ -1,1 +1,68 @@
+{
+  "layer": "top",
+  "width": 1900,
+  "margin-top": 0,
+  "margin-bottom": -8,
 
+  // Modules layout
+  "modules-left": ["clock"],
+  "modules-center": ["hyprland/workspaces"],
+  "modules-right": ["pulseaudio", "cpu", "memory", "disk"],
+
+  // Sourced modules
+"pulseaudio": {
+    "tooltip": false,
+    "scroll-step": 5,
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+    "format": "{icon} {volume}%",
+    "format-muted": "<span color='#7aa2f7'>󰝟</span> Mute",
+    "format-icons": {
+        "default": [
+            "<span color='#7aa2f7'> </span>", // Mute
+            "<span color='#7aa2f7'> </span>", // Low Volume
+            "<span color='#7aa2f7'> </span>"  // High Volume
+        ],
+        "muted": "<span color='#7aa2f7'> </span>" // Ícono para volumen mudo
+    },
+    "on-change": "pactl get-sink-volume @DEFAULT_SINK@ | grep -o '[0-9]\\+%'"
+},
+  "hyprland/workspaces": {
+    "disable-scroll": true,
+    "on-click": "activate",
+    "all-outputs": true,
+    "active-only": false,
+    "persistent-workspaces": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+    },
+    "format": "{icon}",
+    "format-icons": {
+      "active": "<span font='12'>󰮯</span>",
+      "empty": "<span font='8'> </span>",
+      "persistent": "󰊠"
+    }
+  },
+ "clock": {
+    "tooltip": true,
+    "interval": 60,
+    "format": "<span color='#a0d6b4'> </span> {:%Y.%m.%d | %H.%M}",
+    "tooltip-format": "{:%Y-%m-%d}"
+},
+  "cpu": {
+    "interval": 15,
+    "format": "<span color='#f7768e'> </span> {}%",
+    "max-length": 10
+  },
+  "disk": {
+    "format": "<span color='#e0af68'> </span> {used}",
+    "interval": 1
+  },
+  "memory": {
+    "interval": 30,
+    "format": "<span color='#7dcfff'> </span> {used}GiB",
+    "on-click": "kitty -e btop",
+    "max-length": 10
+  }
+}

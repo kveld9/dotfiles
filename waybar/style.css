@@ -1,0 +1,104 @@
+* {
+    border: none;
+    border-radius: 10px;
+    font-family: "JetbrainsMono Nerd Font";
+    font-size: 15px;
+    min-height: 12px;
+    transition: background-color 0.3s ease;
+}
+
+window#waybar {
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 20px;
+    margin: 50px 100px;
+}
+
+#window {
+    padding: 0 12px;
+    border-radius: 10px;
+    color: transparent;
+    background: transparent;
+}
+
+#workspaces {
+    margin: 4px 6px;
+    border-radius: 18px;
+    background: rgba(26, 15, 20, 0.75); /* Fondo más oscuro con tono rojizo */
+    padding: 0 12px;
+}
+
+#workspaces button {
+    margin: 4px 8px;
+    padding: 2px 8px;
+    font-size: 14px;
+    color: #e0d8d1; /* Color más cálido */
+    background: transparent;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+#workspaces button:hover {
+    background-color: rgba(224, 175, 104, 0.2); /* Tono dorado del atardecer */
+}
+
+#workspaces button.persistent {
+    color: #ff9e8f; /* Tono rosado cálido */
+    font-weight: bold;
+}
+
+#workspaces button.empty {
+    color: #8b7355; /* Marrón apagado */
+    font-size: 12px;
+    opacity: 0.7;
+}
+
+#workspaces button.active {
+    color: #e0af68; /* Dorado del atardecer */
+    background: rgba(224, 175, 104, 0.15);
+    font-weight: bold;
+}
+
+#cpu,
+#pulseaudio,
+#memory,
+#disk {
+    margin: 5px;
+    padding: 2px 12px;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #e0d8d1; /* Color más cálido */
+    background: rgba(26, 15, 20, 0.75); /* Fondo más oscuro con tono rojizo */
+}
+
+#cpu:hover,
+#pulseaudio:hover,
+#memory:hover,
+#disk:hover {
+    background: rgba(224, 175, 104, 0.15); /* Tono dorado del atardecer */
+}
+
+#clock {
+    padding: 2px 14px;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e0d8d1; /* Color más cálido */
+    background: rgba(26, 15, 20, 0.75); /* Fondo más oscuro con tono rojizo */
+    margin: 6px;
+}
+
+#clock:hover {
+    background: rgba(224, 175, 104, 0.15); /* Tono dorado del atardecer */
+}
+
+tooltip {
+    background: rgba(26, 15, 20, 0.95); /* Fondo más oscuro con tono rojizo */
+    border: 1px solid rgba(224, 175, 104, 0.2); /* Borde sutil dorado */
+    border-radius: 8px;
+}
+
+tooltip label {
+    color: #e0d8d1;
+    padding: 4px 8px;
+}
