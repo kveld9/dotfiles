@@ -1,0 +1,80 @@
+{
+  "display": {
+    "separator": " · "
+  },
+  "modules": [
+    // Custom text
+    {
+      "type": "custom",
+      "format": "\u001b[36m    btw, I use Arch."
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────┐"
+    },
+    // System information
+    {
+      "type": "os",
+      "key": "  󰣇  OS",
+      "keyColor": "\u001b[38;2;255;182;193m"  // Pastel pink
+    },
+    {
+      "type": "kernel",
+      "key": "    Kernel",
+      "keyColor": "\u001b[38;2;255;223;186m"  // Peach
+    },
+    {
+      "type": "packages",
+      "key": "    Packages",
+      "keyColor": "\u001b[38;2;255;239;213m"  // Light pastel yellow
+    },
+    {
+      "type": "display",
+      "key": "    Display",
+      "keyColor": "\u001b[38;2;193;255;193m"  // Light pastel green
+    },
+    {
+      "type": "wm",
+      "key": "    WM",
+      "keyColor": "\u001b[38;2;193;220;255m"  // Light pastel blue
+    },
+    {
+      "type": "terminal",
+      "key": "    Terminal",
+      "keyColor": "\u001b[38;2;216;191;216m"  // Thistle
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "    CPU",
+      "keyColor": "\u001b[38;2;255;160;122m"  // Light salmon
+    },
+    {
+      "type": "gpu",
+      "key": "    GPU",
+      "keyColor": "\u001b[38;2;250;128;114m"  // Salmon
+    },
+    {
+      "type": "gpu",
+      "format": "{3}",
+      "keyColor": "\u001b[38;2;221;160;221m",  // Plum
+      "key": "  󰊴  GPU Driver"
+    },
+    {
+      "type": "memory",
+      "key": "    Memory",
+      "keyColor": "\u001b[38;2;176;224;230m"  // Powder blue
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    },
+    "break"
+  ]
+}
