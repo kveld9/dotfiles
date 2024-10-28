@@ -1,6 +1,6 @@
 {
   "bar.customModules.updates.pollingInterval": 1440000,
-  "wallpaper.image": "/home/kveld/Downloads/wallhaven-zyj8gw_1920x1080.png",
+  "wallpaper.image": "/ruta/al/wallpaper",
   "theme.matugen": true,
   "theme.matugen_settings.scheme_type": "fruit-salad",
   "bar.layouts": {
