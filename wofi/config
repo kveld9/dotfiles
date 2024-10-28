@@ -1,0 +1,14 @@
+mode=drun
+allow_images=true
+image_size=45
+width=650
+height=400
+term=kitty
+prompt=Search
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=start
+insensitive=true
