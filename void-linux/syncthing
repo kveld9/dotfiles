@@ -1,0 +1,25 @@
+     sudo xbps-install -S syncthing
+     sudo mkdir /etc/sv/syncthing
+     sudo nano /etc/sv/syncthing/run
+     
+paste:
+     #!/bin/sh
+     export USERNAME=YOURUSERNAME
+     export HOME="/home/$USERNAME"
+     export SYNCTHING="$HOME/bin/syncthing"
+     
+     exec 2>&1
+     exec chpst -u "$USERNAME" "$SYNCTHING" serve --logflags 0
+     
+     
+     sudo chmod +x /etc/sv/syncthing/run
+     sudo mkdir /etc/sv/syncthing/log
+     sudo nano /etc/sv/syncthing/log/run
+
+paste:
+     #!/bin/sh
+     exec svlogd -tt ./main
+     
+     sudo chmod +x /etc/sv/syncthing/log/run
+     sudo sv start syncthing
+     sudo ln -s /etc/sv/syncthing /var/service/
