@@ -1,0 +1,7 @@
+/etc/default/grub
+
+
+     GRUB_CMDLINE_LINUX_DEFAULT="quiet loglevel=0"
+     GRUB_DISABLE_OS_PROBER=false  
+     GRUB_CMDLINE_LINUX="noresume"
+     GRUB_GFXMODE=1920x1080x32
