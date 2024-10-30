@@ -1,0 +1,136 @@
+{
+  "display": {
+    "separator": " · "
+  },
+  "modules": [
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;159m    System  .    *    .    .    *    .    .    *    ."
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "os",
+      "key": "  󰣇  OS",
+      "keyColor": "\u001b[38;2;255;182;193m"  // Pink
+    },
+    {
+      "type": "InitSystem",
+      "key": "    Init",
+      "keyColor": "\u001b[38;2;204;204;255m"  // Periwinkle
+    },
+    {
+      "type": "kernel",
+      "key": "    Kernel",
+      "keyColor": "\u001b[38;2;255;218;185m"  // Peach
+    },
+    {
+      "type": "de",
+      "key": "    DE",
+      "keyColor": "\u001b[38;2;187;255;187m"  // Powder blue
+    },
+    {
+      "type": "wm",
+      "key": "    WM",
+      "keyColor": "\u001b[38;2;176;224;230m"  // Powder blue
+    },
+    {
+      "type": "packages",
+      "key": "    Packages",
+      "keyColor": "\u001b[38;2;255;255;186m"  // Light yellow
+    },
+    {
+      "type": "terminal",
+      "key": "    Terminal",
+      "keyColor": "\u001b[38;2;200;191;231m"  // Lavender
+    },
+    {
+      "type": "Shell",
+      "key": "    Shell",
+      "keyColor": "\u001b[38;2;255;204;255m"  // Light magenta
+    },
+    {
+      "type": "LM",
+      "key": "  󰍂  LM",
+      "keyColor": "\u001b[38;2;204;255;204m"  // Light magenta
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;218m    Hardware  .    *    .    .    *    .    .    *    ."
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "display",
+      "key": "    Display",
+      "keyColor": "\u001b[38;2;187;255;187m"  // Mint
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "    CPU",
+      "keyColor": "\u001b[38;2;221;160;221m"  // Plum
+    },
+    {
+      "type": "gpu",
+      "key": "    GPU",
+      "keyColor": "\u001b[38;2;230;190;190m"  // Misty rose
+    },
+    {
+      "type": "board",
+      "key": "  󱤓  Motherboard",
+      "keyColor": "\u001b[38;2;255;255;186m"  // Light coral
+    },
+    {
+      "type": "Sound",
+      "key": "  󰴸  Sound",
+      "keyColor": "\u001b[38;2;204;204;255m"  // Light coral
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────┘"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;5;229m    Themes  .    *    .    .    *    .    .    *    ."
+    },
+    {
+      "type": "custom",
+      "format": "┌──────────────────────────────────────────────────────┐"
+    },
+    {
+      "type": "cursor",
+      "key": "    Cursor",
+      "keyColor": "\u001b[38;2;188;210;238m"  // Light steel blue
+    },
+    {
+      "type": "icons",
+      "key": "  󰾵  Icons",
+      "keyColor": "\u001b[38;2;216;191;216m"  // Thistle
+    },
+    {
+      "type": "theme",
+      "key": "    Theme",
+      "keyColor": "\u001b[38;2;204;255;204m"  // Light mint
+    },
+    {
+      "type": "custom",
+      "format": "└──────────────────────────────────────────────────────┘"
+    },
+    "break",
+    {
+      "type": "colors",
+      "paddingLeft": 2,
+      "symbol": "circle"
+    },
+    "break"
+  ]
+}
