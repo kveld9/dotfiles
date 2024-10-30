@@ -9,3 +9,11 @@
 ![hot](images/hyprland-wofi-hyprpanel-kitty)
 ![hot-2](images/fastfetch.png)
 ![hot-3](images/four_kitty.png)
+
+
+## KDE Plasma on Arch Linux.
+- [KDE Rounded Corners](https://github.com/matinlotfali/KDE-Rounded-Corners)
+- [KittyTerminal](https://github.com/kovidgoyal/kitty)
+- [Wallpaper](https://unsplash.com)
+
+![hot](images/fastfetch-plasma.png)
