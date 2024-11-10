@@ -1,4 +1,15 @@
 {
+  "logo": {
+      "source": "/home/kveld/.config/fastfetch/t.png",
+      "padding": {
+          "left": 0,
+          "right": 4,
+          "top": 5
+      },
+      "position": "left",
+      "width": 30,
+      "height": 16
+  },
   "display": {
     "separator": " · "
   },
@@ -14,47 +25,47 @@
     {
       "type": "os",
       "key": "  󰣇  OS",
-      "keyColor": "\u001b[38;2;255;182;193m"  // Pink
+      "keyColor": "\u001b[38;2;255;182;193m"
     },
     {
       "type": "InitSystem",
       "key": "    Init",
-      "keyColor": "\u001b[38;2;204;204;255m"  // Periwinkle
+      "keyColor": "\u001b[38;2;204;204;255m"
     },
     {
       "type": "kernel",
       "key": "    Kernel",
-      "keyColor": "\u001b[38;2;255;218;185m"  // Peach
+      "keyColor": "\u001b[38;2;255;218;185m"
     },
     {
       "type": "de",
       "key": "    DE",
-      "keyColor": "\u001b[38;2;187;255;187m"  // Powder blue
+      "keyColor": "\u001b[38;2;187;255;187m"
     },
     {
       "type": "wm",
       "key": "    WM",
-      "keyColor": "\u001b[38;2;176;224;230m"  // Powder blue
+      "keyColor": "\u001b[38;2;176;224;230m"
     },
     {
       "type": "packages",
       "key": "    Packages",
-      "keyColor": "\u001b[38;2;255;255;186m"  // Light yellow
+      "keyColor": "\u001b[38;2;255;255;186m"
     },
     {
       "type": "terminal",
       "key": "    Terminal",
-      "keyColor": "\u001b[38;2;200;191;231m"  // Lavender
+      "keyColor": "\u001b[38;2;200;191;231m"
     },
     {
       "type": "Shell",
       "key": "    Shell",
-      "keyColor": "\u001b[38;2;255;204;255m"  // Light magenta
+      "keyColor": "\u001b[38;2;255;204;255m"
     },
     {
       "type": "LM",
       "key": "  󰍂  LM",
-      "keyColor": "\u001b[38;2;204;255;204m"  // Light magenta
+      "keyColor": "\u001b[38;2;204;255;204m"
     },
     {
       "type": "custom",
@@ -71,28 +82,43 @@
     {
       "type": "display",
       "key": "    Display",
-      "keyColor": "\u001b[38;2;187;255;187m"  // Mint
+      "keyColor": "\u001b[38;2;204;204;255m"
+    },
+    {
+      "type": "board",
+      "key": "  󱤓  Motherboard",
+      "keyColor": "\u001b[38;2;255;255;186m"
+    },
+    {
+      "type": "disk",
+      "key": "  󱤓  Disk",
+      "keyColor": "\u001b[38;2;230;190;190m"
+    },
+    {
+      "type": "memory",
+      "key": "  󱤓  Memory",
+      "keyColor": "\u001b[38;2;176;224;230m"
+    },
+    {
+      "type": "swap",
+      "key": "  󰾴  ZRAM",
+      "keyColor": "\u001b[38;2;255;218;185m"
     },
     {
       "type": "cpu",
       "format": "{1}",
       "key": "    CPU",
-      "keyColor": "\u001b[38;2;221;160;221m"  // Plum
+      "keyColor": "\u001b[38;2;221;160;221m"
     },
     {
       "type": "gpu",
       "key": "    GPU",
-      "keyColor": "\u001b[38;2;230;190;190m"  // Misty rose
-    },
-    {
-      "type": "board",
-      "key": "  󱤓  Motherboard",
-      "keyColor": "\u001b[38;2;255;255;186m"  // Light coral
+      "keyColor": "\u001b[38;2;187;255;187m"
     },
     {
       "type": "Sound",
       "key": "  󰴸  Sound",
-      "keyColor": "\u001b[38;2;204;204;255m"  // Light coral
+      "keyColor": "\u001b[38;2;188;210;238m"
     },
     {
       "type": "custom",
@@ -109,28 +135,26 @@
     {
       "type": "cursor",
       "key": "    Cursor",
-      "keyColor": "\u001b[38;2;188;210;238m"  // Light steel blue
+      "keyColor": "\u001b[38;2;188;210;238m"
     },
     {
       "type": "icons",
       "key": "  󰾵  Icons",
-      "keyColor": "\u001b[38;2;216;191;216m"  // Thistle
+      "keyColor": "\u001b[38;2;216;191;216m"
     },
     {
       "type": "theme",
       "key": "    Theme",
-      "keyColor": "\u001b[38;2;204;255;204m"  // Light mint
+      "keyColor": "\u001b[38;2;204;255;204m"
     },
     {
       "type": "custom",
       "format": "└──────────────────────────────────────────────────────┘"
     },
     "break",
-    {
-      "type": "colors",
-      "paddingLeft": 2,
-      "symbol": "circle"
-    },
-    "break"
+  {
+    "type": "custom",
+    "format": "\u001b[38;2;255;182;193m 󰮯  \u001b[38;2;255;218;185m   \u001b[38;2;189;252;201m   \u001b[38;2;173;216;230m   \u001b[38;2;255;204;204m   \u001b[38;2;230;230;250m   "
+  },
   ]
 }
