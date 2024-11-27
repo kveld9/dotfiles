@@ -1,5 +1,0 @@
-base-minimal dbus base-devel nano elogind polkit sudo bash xf86-video-amdgpu (xf86-video-qxl si es una VM) fastfetch e2fsprogs usbutils iproute2 kbd traceroute iputils (wpa_supplicant si tenés red inalámbrica) NetworkManager ncurses linux6.12 linux6.12-headers
-
-
-
-usermod -aG wheel,disk,audio,video,optical,storage,kvm,network,xbuilder kveld
