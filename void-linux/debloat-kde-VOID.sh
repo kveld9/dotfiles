@@ -3,8 +3,6 @@
 # Lista de paquetes a verificar y desinstalar si están instalados
 packages=(
 adwaita-icon-theme
-avahi-libs
-avahi
 bluedevil
 bluez
 bolt
