@@ -23,5 +23,6 @@
 - [KittyTerminal](https://github.com/kovidgoyal/kitty)
 - [Wallpaper](https://wallpapercave.com/w/wp1933958)
 - [fastfetch-config](fastfetch/config-void.jsonc)
+- [fastfetch-logo](fastfetch/images/logo-void-fullhd-render.png) # credits to [xdlane](https://t.me/@xdlane) for making me this awesome logo.
 
 ![hot](images/fastfetch-void.png)
