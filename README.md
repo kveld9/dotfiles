@@ -17,3 +17,11 @@
 - [Wallpaper](https://unsplash.com)
 
 ![hot](images/fastfetch-plasma.png)
+
+## KDE Plasma on Void Linux.
+- [KDE Rounded Corners](https://github.com/matinlotfali/KDE-Rounded-Corners)
+- [KittyTerminal](https://github.com/kovidgoyal/kitty)
+- [Wallpaper](https://wallpapercave.com/w/wp1933958)
+- [fastfetch-config](fastfetch/config-void.jsonc)
+
+![hot](images/fastfetch-void.png)
