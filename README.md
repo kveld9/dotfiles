@@ -21,8 +21,9 @@
 ## KDE Plasma on Void Linux.
 - [KDE Rounded Corners](https://github.com/matinlotfali/KDE-Rounded-Corners)
 - [KittyTerminal](https://github.com/kovidgoyal/kitty)
-- [Wallpaper](https://wallpapercave.com/w/wp1933958)
+- [Kitty-config](kitty/void-linux/kitty.conf)
 - [fastfetch-config](fastfetch/config-void.jsonc)
 - [fastfetch-logo](fastfetch/images/logo-void-fullhd-render.png) # credits to [xdlane](https://t.me/xdlane) for making me this awesome logo.
+- [Wallpaper](https://wallpapercave.com/w/wp1933958)
 
 ![hot](images/fastfetch-void.png)
