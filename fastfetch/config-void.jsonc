@@ -1,0 +1,84 @@
+{
+  "logo": {
+      "source": "/home/kveld/.config/fastfetch/logo-void-fullhd-render.png",
+      "padding": {
+          "left": 0,
+          "right": 2,
+          "top": 1
+      },
+      "position": "left",
+      "width": 30,
+      "height": 12
+  },
+  "display": {
+    "separator": " ⬥ "
+  },
+  "modules": [
+      {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": ""
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;160;120;185m                    kveld@kveld-void                  "
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;133;105;161m╭──────────────────────────────────────────────────────╮"
+    },
+    {
+      "type": "InitSystem",
+      "key": "   ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "kernel",
+      "key": "   ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "de",
+      "key": "  󰌢 ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "packages",
+      "key": "   ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "cpu",
+      "format": "{1}",
+      "key": "   ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "disk",
+      "key": "   ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "memory",
+      "key": "  󰓅 ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "uptime",
+      "key": "   ",
+      "keyColor": "\u001b[38;2;160;120;200m"
+    },
+    {
+      "type": "custom",
+      "format": "\u001b[38;2;133;105;161m╰──────────────────────────────────────────────────────╯"
+    },
+    "break",
+  ]
+}
